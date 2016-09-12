@@ -1,10 +1,10 @@
 # Locke Docker image
 
-A Docker image to expose your Markdown-based project documentation with Locke.
+A Docker image to expose your Markdown-based project documentation with [Locke](https://github.com/sparkfabrik/locke).
 
 ## Content
 
-The last version of this image is based on Node 6.1.0-slim image and [Locke](https://github.com/sparkfabrik/locke).
+The last version of this image is based on Node 6.1.0-slim and Locke.
 
 ## Usage
 
