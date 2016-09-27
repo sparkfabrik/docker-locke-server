@@ -7,12 +7,11 @@ ENV LOCKE_VERSION 1.0.0
 ENV LOCKE_INSTALL_DIR /srv/locke
 ENV PORT=80
 
-# Get Locke from Github repository
-RUN cd /tmp \
-    && curl -SLO "https://github.com/sparkfabrik/Locke/archive/$LOCKE_VERSION.tar.gz" \
-    && mkdir -p $LOCKE_INSTALL_DIR \
-    && tar -xzf "$LOCKE_VERSION.tar.gz" -C $LOCKE_INSTALL_DIR --strip-components=1 \
-    && rm "$LOCKE_VERSION.tar.gz"
+# Copy app files into the container.
+COPY ./assets $LOCKE_INSTALL_DIR/assets
+COPY ./themes/spark $LOCKE_INSTALL_DIR/themes/spark
+COPY ./server.js $LOCKE_INSTALL_DIR/
+COPY ./package.json $LOCKE_INSTALL_DIR/
 
 # Install Locke and his dependencies
 WORKDIR $LOCKE_INSTALL_DIR
