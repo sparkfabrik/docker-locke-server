@@ -1,9 +1,9 @@
 # Set base image
-FROM node:6.1.0-slim
+FROM node:7.10.0-slim
 MAINTAINER Francesco Benigno <francesco.benigno@sparkfabrik.com>
 
 # Set variables
-ENV LOCKE_VERSION 1.0.0
+ENV LOCKE_VERSION 1.1.0
 ENV LOCKE_INSTALL_DIR /srv/locke
 ENV PORT=80
 
