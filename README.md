@@ -4,7 +4,7 @@ A Docker image to expose your Markdown-based project documentation with [Locke](
 
 ## Content
 
-The last version of this image is based on Node 6.1.0-slim and Locke.
+The last version of this image is based on Node 7.10.0-slim and Locke.
 
 ## Usage
 
