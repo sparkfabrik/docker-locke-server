@@ -1,6 +1,6 @@
 {
   "name": "locke-server",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Locke Server",
   "author": "Francesco Benigno <ben.francesco@gmail.com>",
   "main": "server.js",
@@ -10,6 +10,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "raneto": "^0.13.0"
+    "raneto": "^0.16.2"
   }
 }
