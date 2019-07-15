@@ -1,5 +1,5 @@
 # Set base image
-FROM node:7.10.0-slim
+FROM node:10.16-slim
 MAINTAINER Francesco Benigno <francesco.benigno@sparkfabrik.com>
 
 # Set variables
