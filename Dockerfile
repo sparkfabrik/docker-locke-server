@@ -3,7 +3,7 @@ FROM node:10.16-slim
 MAINTAINER Francesco Benigno <francesco.benigno@sparkfabrik.com>
 
 # Set variables
-ENV LOCKE_VERSION 1.2.1
+ENV LOCKE_VERSION 1.2.2
 ENV LOCKE_INSTALL_DIR /srv/locke
 ENV PORT=80
 
