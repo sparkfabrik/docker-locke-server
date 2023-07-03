@@ -1,5 +1,8 @@
 # Locke Docker image
 
+> **NOTE**: This repository is no longer maintained and it has been archived.  
+> In can still be forked and remains read-only.
+
 A Docker image to expose your Markdown-based project documentation with [Locke](https://github.com/sparkfabrik/locke).
 
 ## Content
